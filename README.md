@@ -1,10 +1,14 @@
 # Serilog.Dnx.Prerelease
 
-Pre-release support for the DNX (.NET 5) runtime environment for Serilog **that will be retired** when VS2015 hits RTM.
+Pre-release support for the DNX runtime environment for Serilog **that will be retired** when VS2015 hits RTM.
+
+Work-in-progress; don't expect that anything here is functional just yet :-)
 
 ## What
 
-Sinks like Console, File and so-on that you'd expect in the core Serilog package, but ready to roll with the VS2015 RCs.
+Sinks like `Console`, `File` and so-on that you'd expect in the core Serilog package, but ready to roll with the VS2015 RCs.
+
+Ideally, this project will target broad compatibility (CoreCLR, Linux, Mac) over breadth.
 
 ## Why?
 
